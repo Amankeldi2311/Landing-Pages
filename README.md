@@ -10,7 +10,7 @@ Dark, high-contrast landing page for an elite fitness and training studio. It us
 
 Open page: [`fitness/index.html`](./fitness/index.html)
 
-Screenshot placeholder:
+Screenshot:
 
 ![Kinetic Edge screenshot](./fitness/screenshot.png)
 
@@ -20,7 +20,7 @@ Modern digital agency landing page for a product design and technology studio. I
 
 Open page: [`it/index.html`](./it/index.html)
 
-Screenshot placeholder:
+Screenshot:
 
 ![Neon Logic screenshot](./it/screenshot.png)
 
@@ -30,7 +30,7 @@ Elegant restaurant landing page for a fine dining concept. It includes a cinemat
 
 Open page: [`rest/index.html`](./rest/index.html)
 
-Screenshot placeholder:
+Screenshot:
 
 ![The Culinary Atelier screenshot](./rest/screenshot.png)
 
@@ -80,12 +80,12 @@ No build step or local server is required because the pages use the Tailwind CDN
 
 ## Screenshots
 
-To show screenshots in this README, add images with these names:
+To show screenshots in this README, add the images with these names:
 
 ```text
-fitness/screenshot.png
-it/screenshot.png
-rest/screenshot.png
+fitness/screenshot.png  - first image, fitness page
+it/screenshot.png       - second image, IT page
+rest/screenshot.png     - third image, restaurant page
 ```
 
 After adding the files, GitHub will automatically display them in the sections above.
