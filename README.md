@@ -12,7 +12,7 @@ Open page: [`fitness/index.html`](./fitness/index.html)
 
 Screenshot:
 
-![Kinetic Edge screenshot](./fitness/screenshot.png)
+![Kinetic Edge screenshot](./fitness/image.png)
 
 ### Neon Logic - IT Landing Page
 
@@ -22,7 +22,7 @@ Open page: [`it/index.html`](./it/index.html)
 
 Screenshot:
 
-![Neon Logic screenshot](./it/screenshot.png)
+![Neon Logic screenshot](./it/image.png)
 
 ### The Culinary Atelier - Restaurant Landing Page
 
@@ -32,7 +32,7 @@ Open page: [`rest/index.html`](./rest/index.html)
 
 Screenshot:
 
-![The Culinary Atelier screenshot](./rest/screenshot.png)
+![The Culinary Atelier screenshot](./rest/image.png)
 
 ## Project Structure
 
@@ -80,12 +80,10 @@ No build step or local server is required because the pages use the Tailwind CDN
 
 ## Screenshots
 
-To show screenshots in this README, add the images with these names:
+Screenshots are stored inside each page folder:
 
 ```text
-fitness/screenshot.png  - first image, fitness page
-it/screenshot.png       - second image, IT page
-rest/screenshot.png     - third image, restaurant page
+fitness/image.png  - fitness page
+it/image.png       - IT page
+rest/image.png     - restaurant page
 ```
-
-After adding the files, GitHub will automatically display them in the sections above.
