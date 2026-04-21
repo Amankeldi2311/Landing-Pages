@@ -12,7 +12,7 @@ Open page: [`fitness/index.html`](./fitness/index.html)
 
 Screenshot:
 
-![Kinetic Edge screenshot](./fitness/image.png)
+<img src="./fitness/image.png" alt="Kinetic Edge screenshot" width="900">
 
 ### Neon Logic - IT Landing Page
 
@@ -22,7 +22,7 @@ Open page: [`it/index.html`](./it/index.html)
 
 Screenshot:
 
-![Neon Logic screenshot](./it/image.png)
+<img src="./it/image.png" alt="Neon Logic screenshot" width="900">
 
 ### The Culinary Atelier - Restaurant Landing Page
 
@@ -32,7 +32,7 @@ Open page: [`rest/index.html`](./rest/index.html)
 
 Screenshot:
 
-![The Culinary Atelier screenshot](./rest/image.png)
+<img src="./rest/image.png" alt="The Culinary Atelier screenshot" width="900">
 
 ## Project Structure
 
