@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KINETIC EDGE - Elite Fitness</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&amp;family=Manrope:wght@400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="tailwind.config.js"></script>
+<link href="styles.css" rel="stylesheet"/>
+<script src="script.js" defer></script>
+</head>
+<body class="font-body bg-surface text-on-surface antialiased overflow-x-hidden min-h-screen flex flex-col selection:bg-kinetic-neon selection:text-black">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#131313]/40 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(171,214,0,0.08)] transition-all duration-300">
+<div class="flex justify-between items-center px-8 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black italic tracking-tighter text-white font-headline hover:text-kinetic-neon transition-colors duration-300 cursor-pointer">
+                KINETIC EDGE
+            </div>
+<nav class="hidden md:flex gap-8">
+<a class="font-['Lexend'] uppercase tracking-tighter font-black text-sm text-white hover:text-kinetic-neon transition-colors hover:scale-105 transform duration-200" href="#">WORKOUTS</a>
+<a class="font-['Lexend'] uppercase tracking-tighter font-black text-sm text-white hover:text-kinetic-neon transition-colors hover:scale-105 transform duration-200" href="#programs">PROGRAMS</a>
+<a class="font-['Lexend'] uppercase tracking-tighter font-black text-sm text-white hover:text-kinetic-neon transition-colors hover:scale-105 transform duration-200" href="#coaches">COACHING</a>
+<a class="font-['Lexend'] uppercase tracking-tighter font-black text-sm text-kinetic-neon border-b-2 border-kinetic-neon pb-1 hover:scale-105 transform duration-200" href="#membership">MEMBERSHIP</a>
+</nav>
+<button class="bg-primary-fixed text-on-primary-fixed font-headline uppercase tracking-tighter font-black text-sm px-6 py-3 hover:scale-105 transition-transform duration-200 shadow-[inset_0_0_10px_rgba(171,214,0,0.2)] hover:bg-white">
+                JOIN NOW
+            </button>
+</div>
+</header>
+<main class="flex-grow pt-24">
+<!-- Hero Section -->
+<section class="relative h-[921px] flex items-center justify-start px-8 lg:px-24 bg-surface-container-lowest overflow-hidden reveal">
+<div class="absolute inset-0 z-0 opacity-60">
+<img alt="Hero Athlete Background" class="w-full h-full object-cover object-center mix-blend-luminosity transform hover:scale-105 transition-transform duration-1000" data-alt="high-contrast, gritty action shot of a muscular male athlete sprinting in an industrial warehouse, cinematic lighting, sharp focus on subject, dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuEGlk2KuH9LaVCevPlSKRm_FuQkdl0zIbkH2SrJI192kqV7gV4aM4izeoOK0BltJ-N-7YL_0H7kYjTsddv3vTuR_ms1_q_Q00qV_YSD7EvONMsNS3KrICGkCiQTr7aRAftyxAwzZFqHJLgp14Qa7EiutdWQR8wJUEv8nAvkuTaZ6S6V19Jq25Wnlie7Wh1qs7pSRFxsPJ8BJmqVQ5Vlxyb2HarKjPksGBF9RknGmZXCAu5pSQoShBXGHg0eNy2tAz1PjaT5DRRVM"/>
+</div>
+<div class="relative z-10 max-w-4xl pt-20">
+<h1 class="font-headline text-7xl lg:text-9xl font-black uppercase tracking-tighter leading-none text-primary mix-blend-difference reveal reveal-delay-1">
+                    UNLEASH YOUR <span class="text-primary-fixed block -mt-4 mix-blend-normal">KINETIC EDGE</span>
+</h1>
+<p class="font-body text-xl lg:text-2xl mt-8 mb-12 text-on-surface-variant max-w-2xl font-bold reveal reveal-delay-2">
+                    Elite training protocols designed for those who refuse to settle. Push past your limits in an environment built for champions.
+                </p>
+<div class="flex gap-6 items-center reveal reveal-delay-3">
+<button class="bg-primary-fixed text-on-primary-fixed font-headline font-black text-lg px-10 py-5 uppercase tracking-tighter hover:scale-105 hover:bg-white transition-all duration-200 shadow-[inset_0_0_20px_rgba(171,214,0,0.3)]">
+                        JOIN THE ELITE
+                    </button>
+<button class="border-2 border-primary/20 text-primary font-headline font-bold text-lg px-10 py-5 uppercase tracking-wider hover:border-kinetic-neon hover:text-kinetic-neon transition-colors duration-300 bg-surface-variant/40 backdrop-blur-md">
+                        VIEW PROGRAMS
+                    </button>
+</div>
+</div>
+</section>
+<!-- Stats Bar -->
+<section class="bg-surface-container-low py-12 px-8 border-y border-surface-container-high/50 reveal">
+<div class="max-w-[1920px] mx-auto flex flex-col md:flex-row justify-around items-center gap-8">
+<div class="text-center group">
+<span class="block font-headline text-5xl font-black text-primary-fixed mb-2 group-hover:scale-110 transition-transform duration-300">10k+</span>
+<span class="font-body text-sm font-bold tracking-widest uppercase text-on-surface-variant">ACTIVE ATHLETES</span>
+</div>
+<div class="text-center group">
+<span class="block font-headline text-5xl font-black text-primary mb-2 group-hover:text-kinetic-neon group-hover:scale-110 transition-all duration-300">50+</span>
+<span class="font-body text-sm font-bold tracking-widest uppercase text-on-surface-variant">ELITE PROGRAMS</span>
+</div>
+<div class="text-center group">
+<span class="block font-headline text-5xl font-black text-primary mb-2 group-hover:text-kinetic-neon group-hover:scale-110 transition-all duration-300">24/7</span>
+<span class="font-body text-sm font-bold tracking-widest uppercase text-on-surface-variant">EXPERT COACHING</span>
+</div>
+</div>
+</section>
+<!-- Core Disciplines Section (Asymmetric) -->
+<section class="py-32 px-8 lg:px-24 bg-surface relative overflow-hidden reveal">
+<div class="max-w-[1920px] mx-auto">
+<div class="mb-20">
+<h2 class="font-headline text-5xl lg:text-7xl font-black uppercase tracking-tighter text-primary reveal">CORE <br/><span class="text-kinetic-neon">DISCIPLINES</span></h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Strength -->
+<div class="md:col-span-7 relative group cursor-pointer bg-surface-container-lowest h-[600px] overflow-hidden reveal reveal-delay-1">
+<img alt="Strength Training" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-all duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="low angle shot of a heavy barbell loaded with plates resting on a squat rack in a dark, atmospheric gym, moody lighting, selective color" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASZ9mVD_hSmcF35FOJlZEBuRz-zH3Xe7kCeSbtjGAv5ejJ5gg9T_O4L4Kro65L8hathVaGjAdbhZsnUuIUvUSVJO6OmmjfK4VQMg8QOsI0ke1pPNpoefNZPrdbf8ZITQlst3IcHeKCovNrNwjKQdvxLEZ-1lw38LfUBu2gENUn7Saw0EPRb-oPzrWLhjmILItYvkPFPrOYz_vynxYQjZbqP9NQiYZ4afzR5tc4XGZ2cZDmdbnf2oB0wbzaCyzl-RhOqTF5c2WOjeY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-12 left-12">
+<span class="bg-primary-container text-on-primary-container font-body font-bold text-xs px-3 py-1 uppercase tracking-widest mb-4 inline-block group-hover:bg-white transition-colors duration-300">HYPERTROPHY</span>
+<h3 class="font-headline text-5xl font-black uppercase tracking-tighter text-white mb-4 group-hover:text-primary-fixed transition-colors duration-300">STRENGTH</h3>
+<p class="font-body text-on-surface-variant max-w-sm hidden md:block opacity-0 group-hover:opacity-100 transition-opacity duration-500 translate-y-4 group-hover:translate-y-0">Raw power protocols engineered to maximize functional strength and muscle density.</p>
+</div>
+</div>
+<!-- Conditioning -->
+<div class="md:col-span-5 relative group cursor-pointer bg-surface-container-lowest h-[600px] overflow-hidden mt-0 md:mt-24 reveal reveal-delay-2">
+<img alt="Conditioning" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-all duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="close up of battle ropes hitting the ground in a dark gym setting, chalk dust flying, high contrast, intense action" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc0Ah5T3NSmuNteVDKnw2VF5qh95PnXZs36cJVDJWtC0-l_TSemAwMbrCGmgSvlOQWkf5takIjRBe66b48yysEI_97oIADnF_Q9cCcrC89VA6cNHjI_nL8WYbyvutebUzXQexJH9pcqyc7WqwPKJ-VupsyjfeR8adZBYhD9Bf_z6wi03PlZCcgGYE0TjugkQBr-tsvY5j9V7sN1VUzfpZRobAu6poNTWCUTCfyk9c5LfTeHqKuRJt2Et93E5HgmAt8loxo0iEXA70"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-12 left-12">
+<span class="bg-primary-container text-on-primary-container font-body font-bold text-xs px-3 py-1 uppercase tracking-widest mb-4 inline-block group-hover:bg-white transition-colors duration-300">ENDURANCE</span>
+<h3 class="font-headline text-4xl font-black uppercase tracking-tighter text-white mb-4 group-hover:text-primary-fixed transition-colors duration-300">CONDITIONING</h3>
+<p class="font-body text-on-surface-variant max-w-sm hidden md:block opacity-0 group-hover:opacity-100 transition-opacity duration-500 translate-y-4 group-hover:translate-y-0">High-octane metabolic engine tuning to push your aerobic and anaerobic limits.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Elite Programs Section -->
+<section class="py-32 px-8 lg:px-24 bg-surface-container-lowest relative overflow-hidden reveal" id="programs">
+<div class="max-w-[1920px] mx-auto">
+<div class="mb-20 text-center">
+<h2 class="font-headline text-5xl lg:text-7xl font-black uppercase tracking-tighter text-primary mb-4">ELITE <span class="text-kinetic-neon">PROGRAMS</span></h2>
+<p class="font-body text-xl text-on-surface-variant max-w-2xl mx-auto">Specialized tracks designed by industry leaders. Choose your weapon.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Program 1 -->
+<div class="group relative bg-surface-container-low border border-surface-container-high hover:border-kinetic-neon/50 p-8 transition-all duration-500 hover:-translate-y-2 reveal reveal-delay-1 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-kinetic-neon/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="material-symbols-outlined text-5xl text-kinetic-neon mb-6 block">fitness_center</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter text-white mb-4">POWERLIFTING</h3>
+<p class="font-body text-on-surface-variant mb-8 text-sm">Master the big three. Pure strength focus with periodized loading blocks.</p>
+<a class="inline-block border-b-2 border-transparent group-hover:border-kinetic-neon text-white font-headline font-bold uppercase tracking-wider text-sm pb-1 transition-all duration-300" href="#">EXPLORE TRACK <span class="material-symbols-outlined text-sm align-middle ml-1">arrow_forward</span></a>
+</div>
+<!-- Program 2 -->
+<div class="group relative bg-surface-container-low border border-surface-container-high hover:border-kinetic-neon/50 p-8 transition-all duration-500 hover:-translate-y-2 reveal reveal-delay-2 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-kinetic-neon/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="material-symbols-outlined text-5xl text-kinetic-neon mb-6 block">bolt</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter text-white mb-4">HIIT INFERNO</h3>
+<p class="font-body text-on-surface-variant mb-8 text-sm">High-intensity interval protocols to maximize fat loss and cardiovascular capacity.</p>
+<a class="inline-block border-b-2 border-transparent group-hover:border-kinetic-neon text-white font-headline font-bold uppercase tracking-wider text-sm pb-1 transition-all duration-300" href="#">EXPLORE TRACK <span class="material-symbols-outlined text-sm align-middle ml-1">arrow_forward</span></a>
+</div>
+<!-- Program 3 -->
+<div class="group relative bg-surface-container-low border border-surface-container-high hover:border-kinetic-neon/50 p-8 transition-all duration-500 hover:-translate-y-2 reveal reveal-delay-3 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-kinetic-neon/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="material-symbols-outlined text-5xl text-kinetic-neon mb-6 block">accessibility_new</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter text-white mb-4">MOBILITY X</h3>
+<p class="font-body text-on-surface-variant mb-8 text-sm">Bulletproof your joints. Focused on range of motion, recovery, and injury prevention.</p>
+<a class="inline-block border-b-2 border-transparent group-hover:border-kinetic-neon text-white font-headline font-bold uppercase tracking-wider text-sm pb-1 transition-all duration-300" href="#">EXPLORE TRACK <span class="material-symbols-outlined text-sm align-middle ml-1">arrow_forward</span></a>
+</div>
+<!-- Program 4 -->
+<div class="group relative bg-surface-container-low border border-surface-container-high hover:border-kinetic-neon/50 p-8 transition-all duration-500 hover:-translate-y-2 reveal reveal-delay-4 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-kinetic-neon/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<span class="material-symbols-outlined text-5xl text-kinetic-neon mb-6 block">sports_score</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter text-white mb-4">SPORTS PERF</h3>
+<p class="font-body text-on-surface-variant mb-8 text-sm">Agility, explosiveness, and reactive strength for field and court athletes.</p>
+<a class="inline-block border-b-2 border-transparent group-hover:border-kinetic-neon text-white font-headline font-bold uppercase tracking-wider text-sm pb-1 transition-all duration-300" href="#">EXPLORE TRACK <span class="material-symbols-outlined text-sm align-middle ml-1">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- Meet The Squad Section -->
+<section class="py-32 px-8 lg:px-24 bg-surface border-y border-surface-container-high/30 reveal" id="coaches">
+<div class="max-w-[1920px] mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16">
+<div>
+<h2 class="font-headline text-5xl lg:text-7xl font-black uppercase tracking-tighter text-primary">MEET THE <br/><span class="text-kinetic-neon">SQUAD</span></h2>
+</div>
+<p class="font-body text-on-surface-variant max-w-md mt-6 md:mt-0 md:text-right font-bold">World-class coaching from athletes who have stood on the podium. They don't just teach it; they live it.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Trainer 1 -->
+<div class="group relative overflow-hidden reveal reveal-delay-1 bg-surface-container-low">
+<div class="aspect-[3/4] overflow-hidden">
+<img alt="Trainer" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYi0sskOkCW2ak6vKiq9yJXQ9BgUGyxINEFIajyrqDMY-HX8w231EIq8ty01vYaSCD7Sd2NuV7xzkK4WYqleQPtM0Jbxw94QCkC9fYk8b5lMyxPByDf0-EZsAc8pWpJBl6XEtWwG9LeBN6zsBHNZmNFtcw-mgidBxq4EpliUT-tgvQiXIkjcz5IywjWS19k3_BvRrgdjWhJ4PBCxJqfrc78W16U8GUJXY8ViwhvswqIzpRtQT8oOf8cnYNusVN4lntVctHOMAH0Is"/>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black via-black/80 to-transparent translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+<h4 class="font-headline text-2xl font-black text-white uppercase tracking-tighter">MARCUS V.</h4>
+<p class="text-kinetic-neon font-body text-xs font-bold tracking-widest uppercase mb-2">Head of Strength</p>
+<p class="text-sm text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">Former competitive powerlifter. Specializes in raw strength and advanced periodization.</p>
+</div>
+</div>
+<!-- Trainer 2 -->
+<div class="group relative overflow-hidden reveal reveal-delay-2 bg-surface-container-low">
+<div class="aspect-[3/4] overflow-hidden">
+<img alt="Trainer" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXzOILHCYhoyu8UQk9PJupieXQjX08hLRRLgyqB5655SmAIfybyXbCqyJrn0DvUUReuglNAINCgeH6X3h7HLuy8kFwlSX1bpuYJFpB7mhzlvUjyAVvosYfYS1yfiymWsSeUpgKI8LbVJUCc-iBD6QfCBwv6vyLpwCKnrxlhGBfJu0ItzuUOpsjWUPgxkx8Sf9QIhjGHv5ZrCzlQxDed-8CIPIizVtR-c1kOJQDL3XxfnfzFneBr-aRCG9PW0Zr-Ogo6XYunid9Fqc"/>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black via-black/80 to-transparent translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+<h4 class="font-headline text-2xl font-black text-white uppercase tracking-tighter">ELENA R.</h4>
+<p class="text-kinetic-neon font-body text-xs font-bold tracking-widest uppercase mb-2">Metcon Specialist</p>
+<p class="text-sm text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">Crossfit Games veteran. Expert in high-intensity conditioning and gymnastics.</p>
+</div>
+</div>
+<!-- Trainer 3 -->
+<div class="group relative overflow-hidden reveal reveal-delay-3 bg-surface-container-low">
+<div class="aspect-[3/4] overflow-hidden">
+<img alt="Trainer" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3SkLL7PX-O_aPIhEgJxByBE4QiaCS2JBu2FO93IGaSPaYXat0CxL5CQYuDn_p-rWWopi4FkJCydIforVbKYQJNJ_HiTYGnAGsZn_sI6FUUG3WW2wnXLgMsWNfC8hkhk5i0jQGHGby8Ja1KXKFpJivD0OarIIJmSiLZnhX2Q4-I21v4PB5pcZgQ3vTS104nEijw846X0rDNkCNBmvmH-KIQYaVSohcd4BeF5ltpAaQRXGwR9kBcVTf3zuDp532kvZANfN2QE0nk8w"/>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black via-black/80 to-transparent translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+<h4 class="font-headline text-2xl font-black text-white uppercase tracking-tighter">TYLER D.</h4>
+<p class="text-kinetic-neon font-body text-xs font-bold tracking-widest uppercase mb-2">Sports Performance</p>
+<p class="text-sm text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">D1 Athletic Coach. Focuses on explosive power, agility, and injury prevention.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Victory Stories -->
+<section class="py-32 px-8 lg:px-24 bg-surface-container-lowest relative overflow-hidden reveal">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-kinetic-neon/5 blur-[150px] rounded-full pointer-events-none"></div>
+<div class="max-w-[1920px] mx-auto relative z-10">
+<h2 class="font-headline text-5xl lg:text-7xl font-black uppercase tracking-tighter text-center mb-20 text-white">VICTORY <span class="text-kinetic-neon">STORIES</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Testimonial 1 -->
+<div class="bg-surface p-10 border-l-4 border-kinetic-neon relative group hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-1">
+<span class="material-symbols-outlined absolute top-8 right-8 text-6xl text-white/5 group-hover:text-kinetic-neon/20 transition-colors duration-300">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 rounded-full bg-surface-container-high overflow-hidden">
+<img alt="Athlete" class="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRglIXRQEF7yPwsVu-WWBNrjVqPku8Wqeekf4nvp6GY8TYIkhcZnbsYo1vTPZh6zhHePSxU2ppuk7KKM1gOcMgLDDlP0F4Eij4ig_GiIJ1aIUzN0hPJujIqd0B18DcsRhRsBN-6kvjyMwhi7Br4iwFzJhCnboO9PXsspc67l9TPDXGh7D_Bc48vBwThIIgkE5QwPQ7Uueb5qvA0onOiWw_7r71K9HqhEIf8SdIz_jvcmjjUvIVlMpfhRyfGL79PSv2nVZ_YK5JizQ"/>
+</div>
+<div>
+<h5 class="font-headline font-bold text-white uppercase tracking-wider">Sarah Jenkins</h5>
+<p class="text-kinetic-neon text-xs font-bold uppercase tracking-widest">Powerlifting Track</p>
+</div>
+</div>
+<p class="font-body text-on-surface-variant italic text-lg relative z-10">"I thought I knew what hard work was. Kinetic Edge showed me a new level. Added 50lbs to my deadlift in 12 weeks and the community is unmatched."</p>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface p-10 border-l-4 border-kinetic-neon relative group hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-2">
+<span class="material-symbols-outlined absolute top-8 right-8 text-6xl text-white/5 group-hover:text-kinetic-neon/20 transition-colors duration-300">format_quote</span>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 rounded-full bg-surface-container-high overflow-hidden">
+<img alt="Athlete" class="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgQcCQKNA95KcLSu9gbLgNBl5aq84IQILqe2jL-9Kqgq-Dez81lgqkthlgcbenyZasv3OiEShm-tK4L1VYOS_XX2m8YRw7Gi0G2wEc8qF8048z789QF02LTIppctLrmy4ybtw_JujSkKgMQR4-QrkytECb50Ej_gpgZe-Fe62rZUVl7ikNyuup6Nb_wFcu3bmYqx-pMvRhJQz8cFmZmRIpdZNmI_fuDgTnwwCSaux6oTITHHbUsgTS6Tu1nDi-LhXi7OQDlBAdM0Y"/>
+</div>
+<div>
+<h5 class="font-headline font-bold text-white uppercase tracking-wider">James O'Connor</h5>
+<p class="text-kinetic-neon text-xs font-bold uppercase tracking-widest">HIIT Inferno</p>
+</div>
+</div>
+<p class="font-body text-on-surface-variant italic text-lg relative z-10">"The intensity is real. The coaches push you to the brink but make sure your form is dialed in. Best shape of my life at 35."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing / Membership -->
+<section class="py-32 px-8 lg:px-24 bg-surface border-t border-surface-container-high/30 reveal" id="membership">
+<div class="max-w-6xl mx-auto">
+<div class="text-center mb-20">
+<h2 class="font-headline text-5xl lg:text-7xl font-black uppercase tracking-tighter text-primary mb-4">CHOOSE YOUR <span class="text-kinetic-neon">TIER</span></h2>
+<p class="font-body text-xl text-on-surface-variant">No hidden fees. No contracts. Just results.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+<!-- Basic -->
+<div class="bg-surface-container-lowest p-8 border border-surface-container-high reveal reveal-delay-1 hover:border-white/20 transition-colors">
+<h3 class="font-headline text-2xl font-black uppercase tracking-tighter text-white mb-2">BASE</h3>
+<div class="text-4xl font-headline font-black text-white mb-6">$99<span class="text-sm text-gray-500 font-body">/mo</span></div>
+<ul class="space-y-4 font-body text-on-surface-variant text-sm mb-8">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> 24/7 Gym Access</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> Basic Equipment Usage</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> Locker Room Access</li>
+<li class="flex items-center gap-3 opacity-30"><span class="material-symbols-outlined text-sm">close</span> Group Classes</li>
+<li class="flex items-center gap-3 opacity-30"><span class="material-symbols-outlined text-sm">close</span> Personal Coaching</li>
+</ul>
+<button class="w-full py-4 border border-white/20 text-white font-headline font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors duration-300">SELECT BASE</button>
+</div>
+<!-- Pro (Highlighted) -->
+<div class="bg-surface-container-low p-10 border-2 border-kinetic-neon transform md:-translate-y-4 relative reveal reveal-delay-2 shadow-[0_0_30px_rgba(204,255,0,0.1)]">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-kinetic-neon text-black font-headline font-black text-xs px-4 py-1 uppercase tracking-widest">MOST POPULAR</div>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter text-kinetic-neon mb-2">ELITE</h3>
+<div class="text-5xl font-headline font-black text-white mb-6">$189<span class="text-sm text-gray-500 font-body">/mo</span></div>
+<ul class="space-y-4 font-body text-white text-sm mb-8">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> All Base Features</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> Unlimited Group Classes</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> 1 PT Session / Month</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> Recovery Zone Access</li>
+<li class="flex items-center gap-3 opacity-30"><span class="material-symbols-outlined text-sm">close</span> Custom Meal Plan</li>
+</ul>
+<button class="w-full py-4 bg-kinetic-neon text-black font-headline font-black uppercase tracking-wider hover:bg-white transition-colors duration-300 shadow-[inset_0_0_10px_rgba(255,255,255,0.5)]">SELECT ELITE</button>
+</div>
+<!-- VIP -->
+<div class="bg-surface-container-lowest p-8 border border-surface-container-high reveal reveal-delay-3 hover:border-white/20 transition-colors">
+<h3 class="font-headline text-2xl font-black uppercase tracking-tighter text-white mb-2">APEX</h3>
+<div class="text-4xl font-headline font-black text-white mb-6">$299<span class="text-sm text-gray-500 font-body">/mo</span></div>
+<ul class="space-y-4 font-body text-on-surface-variant text-sm mb-8">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> All Elite Features</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> 4 PT Sessions / Month</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> Custom Programming</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> Custom Meal Plan</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-kinetic-neon text-sm">check</span> VIP Guest Passes</li>
+</ul>
+<button class="w-full py-4 border border-white/20 text-white font-headline font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors duration-300">SELECT APEX</button>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-32 px-8 bg-surface-container-lowest relative flex items-center justify-center border-t border-surface-container-low reveal">
+<div class="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-fixed/5 via-transparent to-transparent"></div>
+<div class="max-w-3xl mx-auto text-center relative z-10">
+<h2 class="font-headline text-6xl md:text-8xl font-black uppercase tracking-tighter text-primary mb-8 reveal reveal-delay-1">
+                    THE CLOCK IS <br/><span class="text-primary-fixed">TICKING</span>
+</h2>
+<p class="font-body text-xl text-on-surface-variant mb-12 reveal reveal-delay-2">Stop waiting for the perfect moment. Forge it. Join the elite ranks today.</p>
+<form class="flex flex-col md:flex-row gap-4 justify-center max-w-xl mx-auto reveal reveal-delay-3">
+<input class="bg-surface-container-low border-b border-outline/30 focus:border-primary-fixed focus:ring-0 text-white font-body px-6 py-4 uppercase tracking-widest w-full md:w-2/3 placeholder-on-surface-variant/50 transition-colors outline-none" placeholder="ENTER YOUR EMAIL" type="email"/>
+<button class="bg-primary-fixed text-on-primary-fixed font-headline font-black px-8 py-4 uppercase tracking-tighter hover:scale-105 hover:bg-white transition-all duration-200 whitespace-nowrap" type="submit">
+                        START NOW
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 bg-[#0E0E0E] border-t border-white/5">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-[1920px] mx-auto">
+<div class="text-xl font-black text-white font-headline tracking-tighter italic hover:text-kinetic-neon transition-colors duration-300 cursor-pointer">
+                KINETIC EDGE
+            </div>
+<nav class="flex flex-wrap justify-center gap-6">
+<a class="font-['Lexend'] uppercase tracking-widest text-xs font-bold text-gray-500 hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">PRIVACY</a>
+<a class="font-['Lexend'] uppercase tracking-widest text-xs font-bold text-gray-500 hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">TERMS</a>
+<a class="font-['Lexend'] uppercase tracking-widest text-xs font-bold text-gray-500 hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">CONTACT</a>
+<a class="font-['Lexend'] uppercase tracking-widest text-xs font-bold text-gray-500 hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">AFFILIATES</a>
+<a class="font-['Lexend'] uppercase tracking-widest text-xs font-bold text-gray-500 hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">FAQS</a>
+</nav>
+<div class="font-['Lexend'] uppercase tracking-widest text-xs font-bold text-[#CCFF00]">
+                В© 2024 KINETIC EDGE. UNLEASH THE BEAST.
+            </div>
+</div>
+</footer>
+</body></html>

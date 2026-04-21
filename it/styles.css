@@ -1,0 +1,17 @@
+﻿body {
+            background-color: #131315;
+            color: #e5e1e4;
+            font-family: 'Manrope', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .glass-panel {
+            background-color: rgba(53, 52, 55, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .glow-shadow {
+            box-shadow: 0 0 30px rgba(208, 188, 255, 0.06);
+        }
+

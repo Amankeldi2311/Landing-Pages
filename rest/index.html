@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="tailwind.config.js"></script>
+<link href="styles.css" rel="stylesheet"/>
+<script src="script.js" defer></script>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-xl shadow-[0_40px_60px_rgba(0,0,0,0.06)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-5">
+<div class="text-2xl font-serif font-bold text-yellow-500 tracking-tighter">
+                The Culinary Atelier
+            </div>
+<div class="hidden md:flex items-center space-gap-12 gap-x-12">
+<a class="text-yellow-500 border-b border-yellow-500/50 pb-1 font-['Manrope'] text-sm tracking-widest uppercase" href="#">Menu</a>
+<a class="text-zinc-400 font-medium hover:text-yellow-200 transition-colors duration-300 font-['Manrope'] text-sm tracking-widest uppercase" href="#">Gallery</a>
+<a class="text-zinc-400 font-medium hover:text-yellow-200 transition-colors duration-300 font-['Manrope'] text-sm tracking-widest uppercase" href="#">About Us</a>
+</div>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-lg font-bold text-sm tracking-widest uppercase hover:bg-primary-container transition-all duration-300 ease-in-out active:scale-95">
+                Book a Table
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Close-up of a sophisticated gourmet dish with edible flowers and gold leaf accents on a dark ceramic plate, dramatic moody lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdv4P7cJpC060tdrq3ldosKkrgijxMpLAUIk9AySx5pmB4yuR7oxKVE5puLnFyOiZ5yNBdFrnyvRXC8MkDTE8Uu4waAaj8BFyznjz6t3yelwhzJODHAxAMF7IMmtz7iuXMoUhjc1Lp3lUal9a6SfgxS4NCMdYco4rlr30IHf0SBhB7QQDJ-hzuAKwsSCaiDQGfG56g-aIkp4_vfrd3VHzYRdUatabsKd21AIzo_u-1dkki755pqbX3fTcWFDLy1S4zbOLBr1TXpsnZ"/>
+<div class="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"></div>
+</div>
+<div class="relative z-10 text-center max-w-5xl px-8">
+<p class="font-label text-primary tracking-[0.3em] uppercase text-sm mb-6">Mastery in Every Bite</p>
+<h1 class="serif-headline text-5xl md:text-8xl text-on-surface font-bold leading-tight mb-10 tracking-tighter">
+                    Experience the Art of <br/><span class="italic text-primary">Fine Dining</span>
+</h1>
+<div class="flex flex-col md:flex-row items-center justify-center gap-6">
+<button class="bg-primary text-on-primary px-10 py-5 rounded-lg font-bold text-sm tracking-widest uppercase hover:bg-primary-container transition-all duration-300 shadow-xl">
+                        Reserve Your Table
+                    </button>
+<button class="bg-white/5 backdrop-blur-md text-on-surface border border-outline-variant/30 px-10 py-5 rounded-lg font-bold text-sm tracking-widest uppercase hover:bg-white/10 transition-all duration-300">
+                        View Seasonal Menu
+                    </button>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+<span class="material-symbols-outlined text-primary text-3xl">expand_more</span>
+</div>
+</section>
+<!-- About Us Section -->
+<section class="bg-surface py-32 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-7 relative">
+<div class="aspect-[4/5] bg-surface-container-low rounded-xl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Professional chef in a white uniform meticulously plating a dish in a modern high-end kitchen with stainless steel surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4aa59eyO4sOS2iZKHXe8e47Btcjnw1a6Hl8ASDmYTVdoTwJ_y7uQWVpcXe8d5USV0HDmWnA1CEbNhMEr7MxOXCTfmcBCnhAxSh2XFKQVzjRzIgQOtpjihb4I5WrG2KZ74U7DF6K6A7IdWsrsI4ztFx6DeXI9yv8kVJCd2v7oCZfyMvBUsJFnsGjIc1zTN9q1NfQrMVDsfTN5FN9FHsJ0DjHYkhkQbc7zB4ax5WwCvhryVR8DXhK5ujRU4Le67NopKG8mwa2Sad9z8"/>
+</div>
+<div class="absolute -bottom-12 -right-12 hidden md:block w-72 h-96 bg-surface-container-high rounded-xl overflow-hidden shadow-2xl border border-outline-variant/10">
+<img class="w-full h-full object-cover" data-alt="Artistic macro shot of high-quality ingredients like truffle and fresh herbs on a dark textured surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHc8PkgxxOZouxUSXQXNE0--uLNNc2O2puWc6m6xx43K8lFRlCoroNwbhR7AGJRcRUkvj6YIk7q9PZqML0Tqydwev3c4X9MfgaoXuT-OgKN9uwMPtXyXBj9-FINhf6p8ZfMA7KVtFoVYpKNFjBMlNgGh7rxEC3ZDh970XzdoxYcPo2IWRwRW5UnocZAje_DFk5bIeupAqctEVM0qEfJyS5Fc1ownJbqHWd7tcwoYVdy_g-rbXCXJDo4l-rLjIBftngo16-OipChCwS"/>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col justify-center">
+<span class="font-label text-primary tracking-[0.2em] uppercase text-xs mb-4">Our Heritage</span>
+<h2 class="serif-headline text-4xl md:text-5xl text-on-surface mb-8 leading-tight">Crafting Memories Through Gastronomy</h2>
+<div class="space-y-6 text-on-surface-variant font-body leading-relaxed text-lg">
+<p>At The Culinary Atelier, we believe that dining is more than just sustenanceвЂ”it is a performance of the senses. Founded on the principles of classic French technique and local seasonal sourcing.</p>
+<p>Every ingredient is selected with an obsession for quality, and every plate is a canvas where flavor meets form.</p>
+</div>
+<div class="mt-12 p-8 bg-surface-container-low rounded-xl border-l-4 border-primary">
+<p class="serif-headline italic text-xl text-on-surface mb-4">"We don't just cook food; we compose experiences that linger in the soul long after the last course."</p>
+<p class="font-label uppercase text-xs tracking-widest text-primary">Chef Julian Vane, Executive Chef</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Menu Highlights (Asymmetric Bento) -->
+<section class="bg-surface-container-lowest py-32 px-8">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-2xl">
+<span class="font-label text-primary tracking-[0.2em] uppercase text-xs mb-4">Curated Selections</span>
+<h2 class="serif-headline text-4xl md:text-6xl text-on-surface leading-tight">Signature Masterpieces</h2>
+</div>
+<a class="group flex items-center gap-2 text-primary font-bold tracking-widest uppercase text-sm border-b border-primary/20 pb-2" href="#">
+                        Full Menu Experience <span class="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+<!-- Item 1 -->
+<div class="group relative flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-lg border border-outline-variant/10">
+<div class="aspect-square overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Exquisite Wagyu beef steak sliced to show medium-rare center, served with microgreens and a rich jus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDu61f1q07O7o1l9yfEsTm9i3zXEvfsuPT22NrJWIcVm-G-PBv2LfSiJvjzeKWYC-1vo8quXxH-s1NGZ6Z1RSxLnlfCHw-3WGPFgYAPj-t9pJMqZxS6KJCsxzh605bQH9TgvxXONsG4Z9hx1DD5Q40Gn3SCP5hN2Y1yfI9jzmv-BQNVo2fru8DXrk8Ip45EdidHwTs6rjnzmdDLslFFyGh66zFJOrExijVaA_i1X4XKPm-iVhOgGnd4SOFEc1QQ8S25-mHsgXXDI3ku"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h3 class="serif-headline text-2xl text-on-surface">Miyazaki Wagyu</h3>
+<span class="text-primary font-bold">$125</span>
+</div>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed mb-6">A5 Wagyu served with truffle-infused potato mousseline, charred baby leeks, and a 48-hour bone marrow reduction.</p>
+<span class="font-label uppercase text-[10px] tracking-widest px-3 py-1 border border-primary/30 text-primary rounded-full">Chef's Signature</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="group relative flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-lg border border-outline-variant/10 md:translate-y-12">
+<div class="aspect-square overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Pan-seared Atlantic scallops with a golden crust, served on a vibrant pea purГ©e with crispy pancetta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBstDv1tg9ytAWM28_WQKy5NwbjGZLx4naKmgc6iXY22vSZFIHsefSHrX_ujjBntVLRKaqfK3F7A5I6pbhY97mCPpjwhxVb-D3WSNz7qiXyg7KiMEz3u__TsClkugs6qJg9CSE2h2KIBWok_EvGwm1Dh0-GVrPpVjO2EPIhE8xu5TYFCAQwozHhNRxDxtRGqsWrZYX2TmLEbwiGz-TAGDT6AOOVv6m8zwBI17EPR4Y0z3TaZOfSfXiBVc5Ee3CVfGHw3ZIgAOA4cVdL"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h3 class="serif-headline text-2xl text-on-surface">Diver Scallops</h3>
+<span class="text-primary font-bold">$48</span>
+</div>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed mb-6">Hand-dived scallops, cauliflower silk, brown butter emulsion, and locally foraged sea herbs.</p>
+<span class="font-label uppercase text-[10px] tracking-widest px-3 py-1 border border-primary/30 text-primary rounded-full">Fresh Catch</span>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="group relative flex flex-col bg-surface-container-low rounded-xl overflow-hidden shadow-lg border border-outline-variant/10 lg:translate-y-24">
+<div class="aspect-square overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Gourmet dessert featuring a dark chocolate sphere, gold leaf, and raspberry coulis on a slate platter" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYxm4LHQ7wDaN8JhMa1tu0GuhVJr7aTuRXkLtK_-ofBGfYn4pD1pkksWx2SsU4c-1dhQFNsMgHlV6K1b5q_lYJdTNr1wlz47tHfXD-SW4Ysfc6STfwYmf03yFAK1ieR0WIGL757O6Gnjf5bDX4USxtOMSF5ojp_vNDPdnTz22_SHV_zaSOp0jrjuFAt-ZC0zeHoUs2kgeWwdhBSjl-ej9aLUirfGs_5dDPntYtAy-DAFBgaAaMHEbYWj4JoGqFvwe1Uat9dK7GQ1ny"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h3 class="serif-headline text-2xl text-on-surface">The Obsidian Sphere</h3>
+<span class="text-primary font-bold">$24</span>
+</div>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed mb-6">70% single-origin dark chocolate, salted caramel heart, gold leaf, and smoked hazelnut crumble.</p>
+<span class="font-label uppercase text-[10px] tracking-widest px-3 py-1 border border-primary/30 text-primary rounded-full">Artisan Pastry</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="bg-surface pt-56 pb-32 px-8">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-[800px]">
+<div class="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" data-alt="Interior view of a high-end restaurant with warm lighting, velvet seating, and elegant table settings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2VEybNT_C6BSLdiYxi_sqkEStGzapvpQIsGgWR5VUxaVMmyfw5kjUhXoXQp3Gt877Xr3vtVIswZ7XWSDfD8qouRJ7ziHtvqdnYeMmWyA1dQjlROeQAko9e22JWXCHM838ABRgvw2yeYO01E1iE49KA5weLwXpWxRMkxgjMBm3T5h0MdHkxAJKBXOM34dWyXdWj8RWkuOKV49f5p3P3ODBqkhsXv9F7CcUZtSL3yIWQFUebspKWiJxRdCdPAJH-iHC_mmuFaQMCaRx"/>
+<div class="absolute inset-0 bg-black/20 flex items-end p-8">
+<span class="font-label text-white uppercase tracking-widest text-xs">The Main Dining Hall</span>
+</div>
+</div>
+<div class="md:col-span-2 relative overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" data-alt="Elegant bar area with backlit shelves of premium spirits and a bartender preparing a cocktail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf_Vzf91vAK0SiNcL90TRIH7s_OPZUsFpZciM-5cwcra6YWGDIGVvSeisxKSGGLCCX3WUI7sDIrRQfwVJIRrey6lrGTDZI0RKcA3TjSLwrDVYrli-eylP6xPh3F84oVFN94StB3JWllIi21Ey4K56GbRkKmmGmTdgb0qnjgQgRYN1ruLXKu0-a93Ca0RM2YQcJIQnYuYLY8oONzhoLGMu1ZBX_gQ1mEweCJx6iYEp6C5IZd8y0Gf40jscT_Ro34ABtRtG-R-Yeko8d"/>
+<div class="absolute inset-0 bg-black/20 flex items-end p-8">
+<span class="font-label text-white uppercase tracking-widest text-xs">The Atelier Bar</span>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" data-alt="Detail shot of a perfectly set restaurant table with fine crystal glassware and silver cutlery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs8M54_ot3Oseyfq4CfqB_xrWSI21eqXUnBlpFF0Anmoej0BLdVOZ4yBtXdU8SOOd98ZrF8XzpBkRP4vI3Sb4Ht60hcZ482XOlyZZsz9ePnOHRC0Ac_JNVU_YHfkCCiJYkHdv8Vucz01b1lzHa-sxFH6gPu0B8G_4VfGGxczd2s6ocTbpj_plmofAVDHnoWpSiBdqE6_9xRSgvdJzUARB74Wi2RlSDANiqTkRieFndTeYGESWB-rwLBTffz3b4BNTrCy__UB5nWk4v"/>
+</div>
+<div class="relative overflow-hidden rounded-xl">
+<img class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" data-alt="Action shot of a waiter pouring wine into a glass in a dimly lit sophisticated setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy709d0LmBFZQZHtwKvG3g-Oj-UiF7_4ky4KA0zyCzd-XhaYolavV5M55fclylIeDj5rLG2VCV1cucxLqJhiK0J6pRMpbXmqYUeOqyMUDLFjQD8XyE9bRPygWbIJ0rWR9Wm_hjew7x5-95a77--0YaFPIJsdjcFTHKMralMNHsZmlUMKGKA6hZ1SBB9LgRzVTutLzmqeXxzmASTT6Prj16zpTgxO43d9TPgELUcr2mnM4PazCJ3qeZ9Krp8UAa5HYjxqPX9XmrQ1Ks"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Reservation Section -->
+<section class="bg-surface-container-lowest py-32 px-8">
+<div class="max-w-4xl mx-auto bg-surface-container-high p-12 md:p-20 rounded-xl shadow-2xl border border-outline-variant/10">
+<div class="text-center mb-16">
+<span class="font-label text-primary tracking-[0.2em] uppercase text-xs mb-4">Private Bookings</span>
+<h2 class="serif-headline text-4xl md:text-5xl text-on-surface mb-4">Secure Your Table</h2>
+<p class="text-on-surface-variant font-body">Join us for an evening of unparalleled culinary excellence.</p>
+</div>
+<form class="space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="relative">
+<label class="block font-label text-[10px] uppercase tracking-widest text-primary mb-2">Full Name</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary text-on-surface py-3 transition-colors placeholder:text-outline-variant/50" placeholder="Julian Vane" type="text"/>
+</div>
+<div class="relative">
+<label class="block font-label text-[10px] uppercase tracking-widest text-primary mb-2">Email Address</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary text-on-surface py-3 transition-colors placeholder:text-outline-variant/50" placeholder="julian@example.com" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="relative">
+<label class="block font-label text-[10px] uppercase tracking-widest text-primary mb-2">Date</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary text-on-surface py-3 transition-colors" type="date"/>
+</div>
+<div class="relative">
+<label class="block font-label text-[10px] uppercase tracking-widest text-primary mb-2">Time</label>
+<select class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary text-on-surface py-3 transition-colors">
+<option class="bg-surface-container-high">19:00</option>
+<option class="bg-surface-container-high">19:30</option>
+<option class="bg-surface-container-high">20:00</option>
+<option class="bg-surface-container-high">20:30</option>
+<option class="bg-surface-container-high">21:00</option>
+</select>
+</div>
+<div class="relative">
+<label class="block font-label text-[10px] uppercase tracking-widest text-primary mb-2">Guests</label>
+<select class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary text-on-surface py-3 transition-colors">
+<option class="bg-surface-container-high">2 Guests</option>
+<option class="bg-surface-container-high">4 Guests</option>
+<option class="bg-surface-container-high">6 Guests</option>
+<option class="bg-surface-container-high">8+ Guests</option>
+</select>
+</div>
+</div>
+<div class="relative pt-4">
+<label class="block font-label text-[10px] uppercase tracking-widest text-primary mb-2">Special Requests</label>
+<textarea class="w-full bg-transparent border-0 border-b border-outline-variant focus:ring-0 focus:border-primary text-on-surface py-3 transition-colors placeholder:text-outline-variant/50 resize-none" placeholder="Allergies, celebrations, etc." rows="2"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-lg font-bold text-sm tracking-widest uppercase hover:bg-primary-container transition-all duration-300 mt-8 shadow-xl">
+                        Confirm Reservation
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1c1b1b] w-full mt-auto border-t border-white/5">
+<div class="max-w-7xl mx-auto px-8 py-16 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="text-yellow-500 font-serif italic text-2xl">
+                The Culinary Atelier
+            </div>
+<div class="flex gap-x-8">
+<a class="font-['Manrope'] text-sm tracking-widest uppercase text-zinc-500 hover:text-yellow-400 transition-colors" href="#">Contact</a>
+<a class="font-['Manrope'] text-sm tracking-widest uppercase text-zinc-500 hover:text-yellow-400 transition-colors" href="#">Opening Hours</a>
+<a class="font-['Manrope'] text-sm tracking-widest uppercase text-zinc-500 hover:text-yellow-400 transition-colors" href="#">Sustainability</a>
+<a class="font-['Manrope'] text-sm tracking-widest uppercase text-zinc-500 hover:text-yellow-400 transition-colors" href="#">Careers</a>
+</div>
+<div class="text-zinc-500 font-['Manrope'] text-xs tracking-widest uppercase text-center md:text-right">
+                В© 2024 The Culinary Atelier. Crafted for the Discerning Palate.
+            </div>
+</div>
+</footer>
+</body></html>
