@@ -12,7 +12,7 @@ Open page: [`fitness/index.html`](./fitness/index.html)
 
 Screenshot:
 
-<img src="./fitness/image.png" alt="Kinetic Edge screenshot" width="900">
+<img src="./fitness/fitness-screenshot.png" alt="Kinetic Edge screenshot" width="900">
 
 ### Neon Logic - IT Landing Page
 
@@ -22,7 +22,7 @@ Open page: [`it/index.html`](./it/index.html)
 
 Screenshot:
 
-<img src="./it/image.png" alt="Neon Logic screenshot" width="900">
+<img src="./it/it-screenshot.png" alt="Neon Logic screenshot" width="900">
 
 ### The Culinary Atelier - Restaurant Landing Page
 
@@ -32,7 +32,7 @@ Open page: [`rest/index.html`](./rest/index.html)
 
 Screenshot:
 
-<img src="./rest/image.png" alt="The Culinary Atelier screenshot" width="900">
+<img src="./rest/restaurant-screenshot.png" alt="The Culinary Atelier screenshot" width="900">
 
 ## Project Structure
 
@@ -83,7 +83,7 @@ No build step or local server is required because the pages use the Tailwind CDN
 Screenshots are stored inside each page folder:
 
 ```text
-fitness/image.png  - fitness page
-it/image.png       - IT page
-rest/image.png     - restaurant page
+fitness/fitness-screenshot.png        - fitness page
+it/it-screenshot.png                  - IT page
+rest/restaurant-screenshot.png        - restaurant page
 ```
